@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: black
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h1, a {
+  color: white;
+}
+
+header, .bar {
+  background-image: url(building.png);
+}
+
+.bar {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: dimgrey;
+}
+
+footer p {
+  color: white;
+}
