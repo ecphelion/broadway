@@ -5,31 +5,45 @@
   color: black
 }
 
+p {
+  font-weight: normal;
+}
+
 h1 {
   font-size: 70px;
   font-weight: bold;
+  margin: -5px 0;
 }
 
-h1, a {
+h2 {
+  font-size: 32px;
+}
+
+h3, .bar {
+  font-size: 23px;
+}
+
+h1, a, .bar {
   color: white;
 }
 
 header, .bar {
   background-image: url(building.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5px 0;
 }
 
-.bar {
-  color: white;
-}
-
-ul {
-  list-style: none;
-}
-
-footer {
+footer nav {
   background-color: dimgrey;
+  padding: 10px 20px;
 }
 
-footer p {
-  color: white;
+footer nav a {
+  padding: 0 5px;
+}
+
+.copyright {
+  text-align: right;
+  margin-right: 10px;
 }
